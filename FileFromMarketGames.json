@@ -1,0 +1,4692 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "name": "Serie Winner",
+            "slug": "winner",
+            "type": "S",
+            "group": "WIN",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 0,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Tournament Winner",
+            "slug": "winner",
+            "type": "T",
+            "group": "WIN",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 1,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Match Winner",
+            "slug": "winner2-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 2,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 3,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Winner",
+            "slug": "winner2-way",
+            "type": "G",
+            "group": "WIN",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 4,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 5,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Match Winner-Draw",
+            "slug": "winner3-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 6,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 7,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 8,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maps Handicap (1.5)",
+            "slug": "maps_handicap_15",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 9,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 10,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maps Handicap (2.5)",
+            "slug": "maps_handicap_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 11,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 12,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Total Maps Over/Under (2.5)",
+            "slug": "total_maps_over_under_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 13,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 14,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Total Maps Over/Under (3.5)",
+            "slug": "total_maps_over_under_35",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 15,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 16,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Total Maps Over/Under (4.5)",
+            "slug": "total_maps_over_under_45",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 17,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 18,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Correct Score",
+            "slug": "correct_core",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 19,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "to Win a Map [team-A]",
+            "slug": "win_a_map_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 20,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 21,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "to Win a Map [team-B]",
+            "slug": "win_a_map_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 22,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 23,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Maps Won [team-A]",
+            "slug": "maps_won_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 24,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Maps Won [team-B]",
+            "slug": "maps_won_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 25,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "1º Map Result",
+            "slug": "first_map_result",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 26,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 27,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Most Kills 2-Way",
+            "slug": "kills2-way",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 28,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 29,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Most Kills 2-Way",
+            "slug": "kills2-way",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 30,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 31,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Most Kills 3-Way",
+            "slug": "kills3-way",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 32,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 33,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 34,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Most Kills 3-Way",
+            "slug": "kills3-way",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 35,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 36,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 37,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Kills Handicap",
+            "slug": "kills_handicap",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 38,
+                    "name": "Kills Handicap",
+                    "slug": "kills-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Kills Handicap",
+            "slug": "kills_handicap",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 39,
+                    "name": "Kills Handicap",
+                    "slug": "kills-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Total Kills Over/Under",
+            "slug": "total_kills_over_under",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 40,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 41,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Total Kills Odd/Even",
+            "slug": "total_kills_odd_even",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 42,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 43,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "First Blood",
+            "slug": "first_blood",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 44,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 45,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Most Rounds 2-Way",
+            "slug": "rounds2-way",
+            "type": "M",
+            "group": "ROUND",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 46,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 47,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Most Rounds 2-Way",
+            "slug": "rounds2-way",
+            "type": "G",
+            "group": "ROUND",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 48,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 49,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Most Rounds 3-Way",
+            "slug": "rounds3-way",
+            "type": "M",
+            "group": "ROUND",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 50,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 51,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 52,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Most Rounds 3-Way",
+            "slug": "rounds3-way",
+            "type": "G",
+            "group": "ROUND",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 53,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 54,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 55,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Rounds Handicap",
+            "slug": "rounds_handicap",
+            "type": "M",
+            "group": "ROUND",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 56,
+                    "name": "Rounds Handicap",
+                    "slug": "rounds-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Rounds Handicap",
+            "slug": "rounds_handicap",
+            "type": "G",
+            "group": "ROUND",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 57,
+                    "name": "Rounds Handicap",
+                    "slug": "rounds-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Total Rounds Over/Under",
+            "slug": "total_rounds_over_under",
+            "type": "G",
+            "group": "ROUND",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 58,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 59,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Total Rounds Odd/Even",
+            "slug": "total_rounds_odd_even",
+            "type": "G",
+            "group": "ROUND",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 60,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 61,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Game Time",
+            "slug": "game-time",
+            "type": "G",
+            "group": "OTHER",
+            "videogame": "csgo",
+            "selections": [
+                {
+                    "id": 62,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 63,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Serie Winner",
+            "slug": "winner",
+            "type": "S",
+            "group": "WIN",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 0,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Tournament Winner",
+            "slug": "winner",
+            "type": "T",
+            "group": "WIN",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 1,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Match Winner",
+            "slug": "winner2-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 2,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 3,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Winner",
+            "slug": "winner2-way",
+            "type": "G",
+            "group": "WIN",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 4,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 5,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Match Winner-Draw",
+            "slug": "winner3-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 6,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 7,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 8,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maps Handicap (1.5)",
+            "slug": "maps_handicap_15",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 9,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 10,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maps Handicap (2.5)",
+            "slug": "maps_handicap_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 11,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 12,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Total Maps Over/Under (2.5)",
+            "slug": "total_maps_over_under_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 13,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 14,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Total Maps Over/Under (3.5)",
+            "slug": "total_maps_over_under_35",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 15,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 16,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Total Maps Over/Under (4.5)",
+            "slug": "total_maps_over_under_45",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 17,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 18,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Correct Score",
+            "slug": "correct_core",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 19,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "to Win a Map [team-A]",
+            "slug": "win_a_map_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 20,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 21,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "to Win a Map [team-B]",
+            "slug": "win_a_map_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 22,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 23,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Maps Won [team-A]",
+            "slug": "maps_won_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 24,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Maps Won [team-B]",
+            "slug": "maps_won_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 25,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "1º Map Winner",
+            "slug": "first_map_result",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 26,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 27,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Most Kills 2-Way",
+            "slug": "kills2-way",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 28,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 29,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Most Kills 2-Way",
+            "slug": "kills2-way",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 30,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 31,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Most Kills 3-Way",
+            "slug": "kills3-way",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 32,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 33,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 34,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Most Kills 3-Way",
+            "slug": "kills3-way",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 35,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 36,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 37,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Kills Handicap",
+            "slug": "kills_handicap",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 38,
+                    "name": "Kills Handicap",
+                    "slug": "kills-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Kills Handicap",
+            "slug": "kills_handicap",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 39,
+                    "name": "Kills Handicap",
+                    "slug": "kills-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Total Kills Over/Under",
+            "slug": "total_kills_over_under",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 40,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 41,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Total Kills Odd/Even",
+            "slug": "total_kills_odd_even",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 42,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 43,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "First Blood",
+            "slug": "first_blood",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 44,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 45,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Most Towers 2-Way",
+            "slug": "towers2-way",
+            "type": "M",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 46,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 47,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Most Towers 2-Way",
+            "slug": "towers2-way",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 48,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 49,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Most Towers 3-Way",
+            "slug": "towers3-way",
+            "type": "M",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 50,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 51,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 52,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Most Towers 3-Way",
+            "slug": "towers3-way",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 53,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 54,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 55,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Towers Handicap",
+            "slug": "towers_handicap",
+            "type": "M",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 56,
+                    "name": "Towers Handicap",
+                    "slug": "towers-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Towers Handicap",
+            "slug": "towers_handicap",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 57,
+                    "name": "Towers Handicap",
+                    "slug": "towers-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Total Towers Over/Under",
+            "slug": "total_towers_over_under",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 58,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 59,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Total Towers Odd/Even",
+            "slug": "total_tower_odd_even",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 60,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 61,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "First Tower",
+            "slug": "first_tower",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 62,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 63,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Game Time",
+            "slug": "game-time",
+            "type": "G",
+            "group": "OTHER",
+            "videogame": "dota2",
+            "selections": [
+                {
+                    "id": 64,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 65,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Serie Winner",
+            "slug": "winner",
+            "type": "S",
+            "group": "WIN",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 0,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Tournament Winner",
+            "slug": "winner",
+            "type": "T",
+            "group": "WIN",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 1,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Match Winner",
+            "slug": "winner2-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 2,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 3,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Winner",
+            "slug": "winner2-way",
+            "type": "G",
+            "group": "WIN",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 4,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 5,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Match Winner Draw",
+            "slug": "winner3-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 6,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 7,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 8,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maps Handicap (1.5)",
+            "slug": "maps_handicap_15",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 9,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 10,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maps Handicap (2.5)",
+            "slug": "maps_handicap_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 11,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 12,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Total Maps Over/Under (2.5)",
+            "slug": "total_maps_over_under_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 13,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 14,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Total Maps Over/Under (3.5)",
+            "slug": "total_maps_over_under_35",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 15,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 16,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Total Maps Over/Under (4.5)",
+            "slug": "total_maps_over_under_45",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 17,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 18,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Correct Score",
+            "slug": "correct_core",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 19,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "to Win a Map [team-A]",
+            "slug": "win_a_map_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 20,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 21,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "to Win a Map [team-B]",
+            "slug": "win_a_map_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 22,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 23,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Maps Won [team-A]",
+            "slug": "maps_won_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 24,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Maps Won [team-B]",
+            "slug": "maps_won_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 25,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "1º Map Winner",
+            "slug": "first_map_result",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 26,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 27,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Most Kills 2-Way",
+            "slug": "kills2-way",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 28,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 29,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Most Kills 2-Way",
+            "slug": "kills2-way",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 30,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 31,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Most Kills 3-Way",
+            "slug": "kills3-way",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 32,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 33,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 34,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Most Kills 3-Way",
+            "slug": "kills3-way",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 35,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 36,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 37,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Kills Handicap",
+            "slug": "kills_handicap",
+            "type": "M",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 38,
+                    "name": "Kills Handicap",
+                    "slug": "kills-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Kills Handicap",
+            "slug": "kills_handicap",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 39,
+                    "name": "Kills Handicap",
+                    "slug": "kills-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Total Kills Over/Under",
+            "slug": "total_kills_over_under",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 40,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 41,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Total Kills Odd/Even",
+            "slug": "total_kills_odd_even",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 42,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 43,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "First Blood",
+            "slug": "first_blood",
+            "type": "G",
+            "group": "KILL",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 44,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 45,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Most Towers 2-Way",
+            "slug": "towers2-way",
+            "type": "M",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 46,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 47,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Most Towers 2-Way",
+            "slug": "towers2-way",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 48,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 49,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Most Towers 3-Way",
+            "slug": "towers3-way",
+            "type": "M",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 50,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 51,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 52,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Most Towers 3-Way",
+            "slug": "towers3-way",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 53,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 54,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 55,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Towers Handicap",
+            "slug": "towers_handicap",
+            "type": "M",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 56,
+                    "name": "Towers Handicap",
+                    "slug": "towers-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Towers Handicap",
+            "slug": "towers_handicap",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 57,
+                    "name": "Towers Handicap",
+                    "slug": "towers-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Total Towers Over/Under",
+            "slug": "total_towers_over_under",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 58,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 59,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Total Towers Odd/Even",
+            "slug": "total_tower_odd_even",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 60,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 61,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "First Tower",
+            "slug": "first_tower",
+            "type": "G",
+            "group": "TOWER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 62,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 63,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Most Drakes 2-Way",
+            "slug": "drakes2-way",
+            "type": "M",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 64,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 65,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Most Drakes 2-Way",
+            "slug": "drakes2-way",
+            "type": "G",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 66,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 67,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Most Drakes 3-Way",
+            "slug": "drakes3-way",
+            "type": "M",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 68,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 69,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 70,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Most Drakes 3-Way",
+            "slug": "drakes3-way",
+            "type": "G",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 71,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 72,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 73,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Drakes Handicap",
+            "slug": "drakes_handicap",
+            "type": "M",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 74,
+                    "name": "Towers Handicap",
+                    "slug": "towers-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Drakes Handicap",
+            "slug": "drakes_handicap",
+            "type": "G",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 75,
+                    "name": "Towers Handicap",
+                    "slug": "towers-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Total Drakes Over/Under",
+            "slug": "total_drakes_over_under",
+            "type": "G",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 76,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 77,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "name": "Total Drakes Odd/Even",
+            "slug": "total_drakes_odd_even",
+            "type": "G",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 78,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 79,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "name": "First Drake",
+            "slug": "first_drake",
+            "type": "G",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 80,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 81,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "name": "First Drake Type Slain",
+            "slug": "first_drake_type_slain",
+            "type": "G",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 82,
+                    "name": "Infernal",
+                    "slug": "infernal",
+                    "type": "IMOC"
+                },
+                {
+                    "id": 83,
+                    "name": "Mountain",
+                    "slug": "mountain",
+                    "type": "IMOC"
+                },
+                {
+                    "id": 84,
+                    "name": "Ocean",
+                    "slug": "ocean",
+                    "type": "IMOCD"
+                },
+                {
+                    "id": 85,
+                    "name": "Cloud",
+                    "slug": "cloud",
+                    "type": "IMOCD"
+                },
+                {
+                    "id": 86,
+                    "name": "Elder",
+                    "slug": "elder",
+                    "type": "IMOCD"
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Both Teams to Slay a Drake",
+            "slug": "both_teams_destroy_drake",
+            "type": "G",
+            "group": "DRAKE",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 87,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 88,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Most Nashor 2-Way",
+            "slug": "nashor2-way",
+            "type": "M",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 89,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 90,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "name": "Most Nashor 2-Way",
+            "slug": "nashor2-way",
+            "type": "G",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 91,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 92,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "name": "Most Nashor 3-Way",
+            "slug": "nashor3-way",
+            "type": "M",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 93,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 94,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 95,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "name": "Most Nashor 3-Way",
+            "slug": "nashor3-way",
+            "type": "G",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 96,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 97,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 98,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "name": "Nashor Handicap",
+            "slug": "nashor_handicap",
+            "type": "M",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 99,
+                    "name": "Nashor Handicap",
+                    "slug": "nashor-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "name": "Nashor Handicap",
+            "slug": "nashor_handicap",
+            "type": "G",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 100,
+                    "name": "Nashor Handicap",
+                    "slug": "nashor-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Total Nashor Over/Under",
+            "slug": "total_nashor_over_under",
+            "type": "G",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 101,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 102,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "name": "Total Nashor Odd/Even",
+            "slug": "total_nash_odd_even",
+            "type": "G",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 103,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 104,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "name": "First Nashor",
+            "slug": "first_nashor",
+            "type": "G",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 105,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 106,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "name": "Both Teams to Slay a Nashor",
+            "slug": "both_teams_destroy_nashor",
+            "type": "G",
+            "group": "NASH",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 107,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 108,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "name": "Most Inhibitors 2-Way",
+            "slug": "inhibitors2-way",
+            "type": "M",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 109,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 110,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "name": "Most Inhibitors 2-Way",
+            "slug": "inhibitors2-way",
+            "type": "G",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 111,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 112,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "name": "Most Inhibitors 3-Way",
+            "slug": "inhibitors3-way",
+            "type": "M",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 113,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 114,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 115,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "name": "Most Inhibitors 3-Way",
+            "slug": "inhibitors3-way",
+            "type": "G",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 116,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 117,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 118,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "name": "Inhibitors Handicap",
+            "slug": "inhibitors_handicap",
+            "type": "M",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 119,
+                    "name": "Inhibitors Handicap",
+                    "slug": "inhibitors-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "name": "Inhibitors Handicap",
+            "slug": "inhibitors_handicap",
+            "type": "G",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 120,
+                    "name": "Inhibitors Handicap",
+                    "slug": "inhibitors-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "name": "Total Inhibitors Over/Under",
+            "slug": "total_inhibitors_over_under",
+            "type": "G",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 121,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 122,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "name": "Total Inhibitors Odd/Even",
+            "slug": "total_inhibitors_odd_even",
+            "type": "G",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 123,
+                    "name": "Odd",
+                    "slug": "odd",
+                    "type": "OE"
+                },
+                {
+                    "id": 124,
+                    "name": "Even",
+                    "slug": "even",
+                    "type": "OE"
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "name": "First Inhibitors",
+            "slug": "first_inhibitors",
+            "type": "G",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 125,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 126,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "name": "Both Teams to Destroy an Inhibitor",
+            "slug": "both_teams_destroy_inhibitor",
+            "type": "G",
+            "group": "INHIB",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 127,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 128,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "name": "Most Gold 3-Way",
+            "slug": "gold3-way",
+            "type": "G",
+            "group": "OTHER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 129,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 130,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 131,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "name": "Gold Handicap",
+            "slug": "gold_handicap",
+            "type": "G",
+            "group": "OTHER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 132,
+                    "name": "Gold Handicap",
+                    "slug": "gold-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "name": "Total Gold Over/Under",
+            "slug": "total_gold_over_under",
+            "type": "G",
+            "group": "OTHER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 133,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 134,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "name": "Most Minions 3-Way",
+            "slug": "minions3-way",
+            "type": "G",
+            "group": "OTHER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 135,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 136,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 137,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "name": "Minions Handicap",
+            "slug": "minions_handicap",
+            "type": "G",
+            "group": "OTHER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 138,
+                    "name": "Minions Handicap",
+                    "slug": "minions-handicap",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "name": "Total Minions Over/Under",
+            "slug": "total_minions_over_under",
+            "type": "G",
+            "group": "OTHER",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 139,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 140,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "name": "Total Time Over/Under",
+            "slug": "total_time_over_under",
+            "type": "G",
+            "group": "TIME",
+            "videogame": "lol",
+            "selections": [
+                {
+                    "id": 141,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 142,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Serie Winner",
+            "slug": "winner",
+            "type": "S",
+            "group": "WIN",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 0,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Tournament Winner",
+            "slug": "winner",
+            "type": "T",
+            "group": "WIN",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 1,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Match Winner",
+            "slug": "winner2-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 2,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 3,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Winner",
+            "slug": "winner2-way",
+            "type": "G",
+            "group": "WIN",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 4,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 5,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Match Winner-Draw",
+            "slug": "winner3-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 6,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 7,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 8,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maps Handicap (1.5)",
+            "slug": "maps_handicap_15",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 9,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 10,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maps Handicap (2.5)",
+            "slug": "maps_handicap_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 11,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 12,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Total Maps Over/Under (2.5)",
+            "slug": "total_maps_over_under_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 13,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 14,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Total Maps Over/Under (3.5)",
+            "slug": "total_maps_over_under_35",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 15,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 16,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Total Maps Over/Under (4.5)",
+            "slug": "total_maps_over_under_45",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 17,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 18,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Correct Score",
+            "slug": "correct_core",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 19,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "to Win a Map [team-A]",
+            "slug": "win_a_map_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 20,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 21,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "to Win a Map [team-B]",
+            "slug": "win_a_map_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 22,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 23,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Maps Won [team-A]",
+            "slug": "maps_won_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 24,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Maps Won [team-B]",
+            "slug": "maps_won_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 25,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "1º Map Result",
+            "slug": "first_map_result",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "ow",
+            "selections": [
+                {
+                    "id": 26,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 27,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Serie Winner",
+            "slug": "winner",
+            "type": "S",
+            "group": "WIN",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 0,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Tournament Winner",
+            "slug": "winner",
+            "type": "T",
+            "group": "WIN",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 1,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Match Winner",
+            "slug": "winner2-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 2,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 3,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Winner",
+            "slug": "winner2-way",
+            "type": "G",
+            "group": "WIN",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 4,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 5,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Match Winner-Draw",
+            "slug": "winner3-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 6,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 7,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 8,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maps Handicap (1.5)",
+            "slug": "maps_handicap_15",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 9,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 10,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maps Handicap (2.5)",
+            "slug": "maps_handicap_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 11,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 12,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Total Maps Over/Under (2.5)",
+            "slug": "total_maps_over_under_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 13,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 14,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Total Maps Over/Under (3.5)",
+            "slug": "total_maps_over_under_35",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 15,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 16,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Total Maps Over/Under (4.5)",
+            "slug": "total_maps_over_under_45",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 17,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 18,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Correct Score",
+            "slug": "correct_core",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 19,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "to Win a Map [team-A]",
+            "slug": "win_a_map_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 20,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 21,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "to Win a Map [team-B]",
+            "slug": "win_a_map_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 22,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 23,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Maps Won [team-A]",
+            "slug": "maps_won_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 24,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Maps Won [team-B]",
+            "slug": "maps_won_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 25,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "1º  Map Result",
+            "slug": "first_map_result",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "rl",
+            "selections": [
+                {
+                    "id": 26,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 27,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Serie Winner",
+            "slug": "winner",
+            "type": "S",
+            "group": "WIN",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 0,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Tournament Winner",
+            "slug": "winner",
+            "type": "T",
+            "group": "WIN",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 1,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Match Winner",
+            "slug": "winner2-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 2,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 3,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Winner",
+            "slug": "winner2-way",
+            "type": "G",
+            "group": "WIN",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 4,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 5,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Match Winner-Draw",
+            "slug": "winner3-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 6,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 7,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 8,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maps Handicap (1.5)",
+            "slug": "maps_handicap_15",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 9,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 10,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maps Handicap (2.5)",
+            "slug": "maps_handicap_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 11,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 12,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Total Maps Over/Under (2.5)",
+            "slug": "total_maps_over_under_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 13,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 14,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Total Maps Over/Under (3.5)",
+            "slug": "total_maps_over_under_35",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 15,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 16,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Total Maps Over/Under (4.5)",
+            "slug": "total_maps_over_under_45",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 17,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 18,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Correct Score",
+            "slug": "correct_core",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 19,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "to Win a Map [team-A]",
+            "slug": "win_a_map_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 20,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 21,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "to Win a Map [team-B]",
+            "slug": "win_a_map_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 22,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 23,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Maps Won [team-A]",
+            "slug": "maps_won_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 24,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Maps Won [team-B]",
+            "slug": "maps_won_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 25,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "1º Map Result",
+            "slug": "first_map_result",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "codmw",
+            "selections": [
+                {
+                    "id": 26,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 27,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Serie Winner",
+            "slug": "winner",
+            "type": "S",
+            "group": "WIN",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 0,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Tournament Winner",
+            "slug": "winner",
+            "type": "T",
+            "group": "WIN",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 1,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Match Winner",
+            "slug": "winner2-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 2,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 3,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Winner",
+            "slug": "winner2-way",
+            "type": "G",
+            "group": "WIN",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 4,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 5,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Match Winner-Draw",
+            "slug": "winner3-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 6,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 7,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 8,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maps Handicap (1.5)",
+            "slug": "maps_handicap_15",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 9,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 10,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maps Handicap (2.5)",
+            "slug": "maps_handicap_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 11,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 12,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Total Maps Over/Under (2.5)",
+            "slug": "total_maps_over_under_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 13,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 14,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Total Maps Over/Under (3.5)",
+            "slug": "total_maps_over_under_35",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 15,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 16,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Total Maps Over/Under (4.5)",
+            "slug": "total_maps_over_under_45",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 17,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 18,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Correct Score",
+            "slug": "correct_core",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 19,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "to Win a Map [team-A]",
+            "slug": "win_a_map_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 20,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 21,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "to Win a Map [team-B]",
+            "slug": "win_a_map_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 22,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 23,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Maps Won [team-A]",
+            "slug": "maps_won_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 24,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Maps Won [team-B]",
+            "slug": "maps_won_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 25,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "1º Map Result",
+            "slug": "first_map_result",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "fifa",
+            "selections": [
+                {
+                    "id": 26,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 27,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Serie Winner",
+            "slug": "winner",
+            "type": "S",
+            "group": "WIN",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 0,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Tournament Winner",
+            "slug": "winner",
+            "type": "T",
+            "group": "WIN",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 1,
+                    "name": "Team",
+                    "slug": "team",
+                    "type": "LINE"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Match Winner",
+            "slug": "winner2-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 2,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 3,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Winner",
+            "slug": "winner2-way",
+            "type": "G",
+            "group": "WIN",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 4,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 5,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Match Winner-Draw",
+            "slug": "winner3-way",
+            "type": "M",
+            "group": "WIN",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 6,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TATB"
+                },
+                {
+                    "id": 7,
+                    "name": "Tie",
+                    "slug": "tie",
+                    "type": "TATB"
+                },
+                {
+                    "id": 8,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TATB"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maps Handicap (1.5)",
+            "slug": "maps_handicap_15",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 9,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 10,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maps Handicap (2.5)",
+            "slug": "maps_handicap_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 11,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 12,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Total Maps Over/Under (2.5)",
+            "slug": "total_maps_over_under_25",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 13,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 14,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Total Maps Over/Under (3.5)",
+            "slug": "total_maps_over_under_35",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 15,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 16,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Total Maps Over/Under (4.5)",
+            "slug": "total_maps_over_under_45",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 17,
+                    "name": "Over",
+                    "slug": "over",
+                    "type": "OU"
+                },
+                {
+                    "id": 18,
+                    "name": "Under",
+                    "slug": "under",
+                    "type": "OU"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Correct Score",
+            "slug": "correct_core",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 19,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "to Win a Map [team-A]",
+            "slug": "win_a_map_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 20,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 21,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "to Win a Map [team-B]",
+            "slug": "win_a_map_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 22,
+                    "name": "Yes",
+                    "slug": "yes",
+                    "type": "YN"
+                },
+                {
+                    "id": 23,
+                    "name": "No",
+                    "slug": "no",
+                    "type": "YN"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Maps Won [team-A]",
+            "slug": "maps_won_team_a",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 24,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Maps Won [team-B]",
+            "slug": "maps_won_team_b",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 25,
+                    "name": "Depends Of The Best Serie",
+                    "slug": "depends-on-best-of-series",
+                    "type": "DOBOS"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "1º  Map Result",
+            "slug": "first_map_result",
+            "type": "M",
+            "group": "MAP",
+            "videogame": "nba2k",
+            "selections": [
+                {
+                    "id": 26,
+                    "name": "Team A",
+                    "slug": "team-a",
+                    "type": "TAB"
+                },
+                {
+                    "id": 27,
+                    "name": "Team B",
+                    "slug": "team-b",
+                    "type": "TAB"
+                }
+            ]
+        }
+    ]
+}
