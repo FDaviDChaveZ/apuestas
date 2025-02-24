@@ -1,0 +1,422 @@
+{
+  "585306": {
+    "Match Winner": [
+      {
+        "selection_id": 2,
+        "odd_quota": 1.7307236328581344,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 3,
+        "odd_quota": 2.3685064435217797,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Maps Handicap (1.5)": [
+      {
+        "selection_id": 9,
+        "odd_quota": 3.28128127471215,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 10,
+        "odd_quota": 1.4383501548383941,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Total Maps Over/Under (2.5)": [
+      {
+        "selection_id": 13,
+        "odd_quota": 2.0219094103707778,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 14,
+        "odd_quota": 1.9785603203684872,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Correct Score": [
+      {
+        "selection_id": 19,
+        "odd_quota": 3.28128127471215,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 3.6625475215540924,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 4.983579106842953,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 4.513694549262462,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ]
+  },
+  "585307": {
+    "Match Winner": [
+      {
+        "selection_id": 2,
+        "odd_quota": 1.8205518456754612,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 3,
+        "odd_quota": 2.218692036670542,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Maps Handicap (1.5)": [
+      {
+        "selection_id": 9,
+        "odd_quota": 3.521287946279231,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 10,
+        "odd_quota": 1.3966226870182525,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Total Maps Over/Under (2.5)": [
+      {
+        "selection_id": 13,
+        "odd_quota": 2.008697660871574,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 14,
+        "odd_quota": 1.9913773361345375,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Correct Score": [
+      {
+        "selection_id": 19,
+        "odd_quota": 3.521287946279231,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 3.769346169213488,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 4.583392535486917,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 4.300390905533313,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ]
+  },
+  "585308": {
+    "Match Winner": [
+      {
+        "selection_id": 2,
+        "odd_quota": 1.464611328768628,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 3,
+        "odd_quota": 3.1523366695563086,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Maps Handicap (1.5)": [
+      {
+        "selection_id": 9,
+        "odd_quota": 2.564773350978974,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 10,
+        "odd_quota": 1.6390701882636018,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Total Maps Over/Under (2.5)": [
+      {
+        "selection_id": 13,
+        "odd_quota": 2.1320143271362784,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 14,
+        "odd_quota": 1.8833810456531566,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Correct Score": [
+      {
+        "selection_id": 19,
+        "odd_quota": 2.564773350978974,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 3.4144026331873105,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 7.089081396832598,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 5.676560912336869,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ]
+  },
+  "585621": {
+    "Match Winner": [
+      {
+        "selection_id": 2,
+        "odd_quota": 1.0526315789473684,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 3,
+        "odd_quota": 20,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Match Winner-Draw": [
+      {
+        "selection_id": 6,
+        "odd_quota": 1.10803324099723,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 7,
+        "odd_quota": 10.526315789473685,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 8,
+        "odd_quota": 100,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Correct Score": [
+      {
+        "selection_id": 19,
+        "odd_quota": 10.526315789473685,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 100,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 1.10803324099723,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "to Win a Map [team-A]": [
+      {
+        "selection_id": 20,
+        "odd_quota": 1.0101010101010102,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 21,
+        "odd_quota": 100,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ]
+  },
+  "585900": {
+    "Match Winner": [
+      {
+        "selection_id": 2,
+        "odd_quota": 1.0965621679472686,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 3,
+        "odd_quota": 11.356022666621243,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Maps Handicap (1.5)": [
+      {
+        "selection_id": 9,
+        "odd_quota": 1.4975328146878017,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 10,
+        "odd_quota": 3.0099176787514863,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Total Maps Over/Under (2.5)": [
+      {
+        "selection_id": 13,
+        "odd_quota": 3.3466306122995366,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 14,
+        "odd_quota": 1.4261429109288184,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Correct Score": [
+      {
+        "selection_id": 19,
+        "odd_quota": 1.4975328146878017,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 4.095406591966451,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 29.91593621922398,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 18.304625578883783,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ]
+  },
+  "585901": {
+    "Match Winner": [
+      {
+        "selection_id": 2,
+        "odd_quota": 1.0526315789473684,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 3,
+        "odd_quota": 20,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Maps Handicap (1.5)": [
+      {
+        "selection_id": 9,
+        "odd_quota": 1.3375779139134854,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 10,
+        "odd_quota": 3.9622791029400113,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Total Maps Over/Under (2.5)": [
+      {
+        "selection_id": 13,
+        "odd_quota": 4.272390530673627,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 14,
+        "odd_quota": 1.3055869984424346,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ],
+    "Correct Score": [
+      {
+        "selection_id": 19,
+        "odd_quota": 1.3375779139134854,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 4.941175307958751,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 54.585152838427945,
+        "odd_origin": "PRE",
+        "status": "OP"
+      },
+      {
+        "selection_id": 19,
+        "odd_quota": 31.565656565656564,
+        "odd_origin": "PRE",
+        "status": "OP"
+      }
+    ]
+  }
+}
